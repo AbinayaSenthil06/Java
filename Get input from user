@@ -1,0 +1,40 @@
+import java.lang.System; // java.lang & java.util => Package name
+import java.util.Scanner; // System & Scanner => class
+
+class getinput
+{
+    public static void main(String args[])
+    {
+     Scanner scan = new Scanner(System.in);  // Scanner is a class , scan => object , new => keyword, System.in => Argument
+     int a=scan.nextInt(); // nextInt=>Read an Integer, int => Datatype , a is a variable
+     int b=scan.nextInt();
+     System.out.println(a+b);  
+    }
+}
+
+
+Get input from user:
+20
+30
+
+Ouput:
+50
+
+import java.lang.System; // java.lang & java.util => Package name
+import java.util.Scanner; // System & Scanner => class
+
+class getinput
+{
+    public static void main(String args[])
+    {
+     Scanner scan = new Scanner(System.in);  // Scanner is a class , scan => object , new => keyword, System.in => Argument
+     String a=scan.nextLine(); // nextInt=>Read an Line(String)
+     System.out.print(a);  
+    }
+}
+
+Get input from user:
+Abi
+
+Ouput:
+Abi
