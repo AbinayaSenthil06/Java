@@ -5,7 +5,7 @@ class getinput
 {
     public static void main(String args[])
     {
-     Scanner scan = new Scanner(System.in);  // Scanner is a class , scan => object , new => keyword, System.in => Argument
+     Scanner scan = new Scanner(System.in);  // Scanner is a class , scan => create a object , new => keyword, System.in => Argument
      int a=scan.nextInt(); // nextInt=>Read an Integer, int => Datatype , a is a variable
      int b=scan.nextInt();
      System.out.println(a+b);  
@@ -28,7 +28,7 @@ class getinput
     public static void main(String args[])
     {
      Scanner scan = new Scanner(System.in);  // Scanner is a class , scan => object , new => keyword, System.in => Argument
-     String a=scan.nextLine(); // nextInt=>Read an Line(String)
+     String a=scan.nextLine(); // nextLine=>Read an Line(String)
      System.out.print(a);  
     }
 }
