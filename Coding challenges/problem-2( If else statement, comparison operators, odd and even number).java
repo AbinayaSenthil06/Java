@@ -81,3 +81,32 @@ Get input:
 12
 Output:
 Number is not divisible by 3 and 5
+
+    // Get input for a number and find it is even or odd number.
+
+import java.util.Scanner;
+class q9{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        int number = scan.nextInt();
+        if(number % 2==0)
+        {
+            System.out.println(number + "is Odd.");
+        }
+        else{
+            System.out.print(number + "is Even.");
+        }
+        
+    }
+}
+
+Get input:
+20
+Output:
+20 is odd.
+
+Get input:
+15
+Output:
+15 is even.
